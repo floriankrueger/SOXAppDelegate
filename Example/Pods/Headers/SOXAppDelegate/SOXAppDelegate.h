@@ -1,1 +1,1 @@
-../../../../Classes/ios/SOXAppDelegate.h
+../../../../Classes/SOXAppDelegate.h

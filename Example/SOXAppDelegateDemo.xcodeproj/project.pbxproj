@@ -14,8 +14,6 @@
 		DF5C6C9D1917828B00BB3EA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6C9B1917828B00BB3EA4 /* InfoPlist.strings */; };
 		DF5C6C9F1917828B00BB3EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6C9E1917828B00BB3EA4 /* main.m */; };
 		DF5C6CA31917828B00BB3EA4 /* SOXDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CA21917828B00BB3EA4 /* SOXDAppDelegate.m */; };
-		DF5C6CA61917828B00BB3EA4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6CA41917828B00BB3EA4 /* Main_iPhone.storyboard */; };
-		DF5C6CA91917828B00BB3EA4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6CA71917828B00BB3EA4 /* Main_iPad.storyboard */; };
 		DF5C6CAC1917828B00BB3EA4 /* SOXDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CAB1917828B00BB3EA4 /* SOXDViewController.m */; };
 		DF5C6CAE1917828B00BB3EA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6CAD1917828B00BB3EA4 /* Images.xcassets */; };
 		DF5C6CB51917828B00BB3EA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5C6CB41917828B00BB3EA4 /* XCTest.framework */; };
@@ -23,7 +21,8 @@
 		DF5C6CB71917828B00BB3EA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5C6C961917828B00BB3EA4 /* UIKit.framework */; };
 		DF5C6CBF1917828B00BB3EA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6CBD1917828B00BB3EA4 /* InfoPlist.strings */; };
 		DF5C6CC11917828B00BB3EA4 /* SOXAppDelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CC01917828B00BB3EA4 /* SOXAppDelegateDemoTests.m */; };
-		FB7031FAC2DB4C83BFEACA3A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DC4F43BC414EA89A354F90 /* libPods.a */; };
+		DF5C6CCD1917A4EB00BB3EA4 /* SOXDPushNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CCC1917A4EB00BB3EA4 /* SOXDPushNotificationService.m */; };
+		DF6ED0411917A68E00015F57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6ED0401917A68E00015F57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		DF5C6CA01917828B00BB3EA4 /* SOXAppDelegateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOXAppDelegateDemo-Prefix.pch"; sourceTree = "<group>"; };
 		DF5C6CA11917828B00BB3EA4 /* SOXDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOXDAppDelegate.h; sourceTree = "<group>"; };
 		DF5C6CA21917828B00BB3EA4 /* SOXDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXDAppDelegate.m; sourceTree = "<group>"; };
-		DF5C6CA51917828B00BB3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		DF5C6CA81917828B00BB3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		DF5C6CAA1917828B00BB3EA4 /* SOXDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOXDViewController.h; sourceTree = "<group>"; };
 		DF5C6CAB1917828B00BB3EA4 /* SOXDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXDViewController.m; sourceTree = "<group>"; };
 		DF5C6CAD1917828B00BB3EA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,6 +56,9 @@
 		DF5C6CBC1917828B00BB3EA4 /* SOXAppDelegateDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOXAppDelegateDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DF5C6CBE1917828B00BB3EA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF5C6CC01917828B00BB3EA4 /* SOXAppDelegateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXAppDelegateDemoTests.m; sourceTree = "<group>"; };
+		DF5C6CCB1917A4EB00BB3EA4 /* SOXDPushNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOXDPushNotificationService.h; sourceTree = "<group>"; };
+		DF5C6CCC1917A4EB00BB3EA4 /* SOXDPushNotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOXDPushNotificationService.m; sourceTree = "<group>"; };
+		DF6ED0401917A68E00015F57 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		F503BAE5990245C2BCD4DA12 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FC6D1A85294F42E4B14250DC /* Pods-SOXAppDelegateDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOXAppDelegateDemoTests.xcconfig"; path = "Pods/Pods-SOXAppDelegateDemoTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 				DF5C6C951917828B00BB3EA4 /* CoreGraphics.framework in Frameworks */,
 				DF5C6C971917828B00BB3EA4 /* UIKit.framework in Frameworks */,
 				DF5C6C931917828B00BB3EA4 /* Foundation.framework in Frameworks */,
-				FB7031FAC2DB4C83BFEACA3A /* libPods.a in Frameworks */,
+				DF6ED0411917A68E00015F57 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +113,7 @@
 		DF5C6C911917828B00BB3EA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF6ED0401917A68E00015F57 /* libPods.a */,
 				DF5C6C921917828B00BB3EA4 /* Foundation.framework */,
 				DF5C6C941917828B00BB3EA4 /* CoreGraphics.framework */,
 				DF5C6C961917828B00BB3EA4 /* UIKit.framework */,
@@ -126,10 +127,9 @@
 		DF5C6C981917828B00BB3EA4 /* SOXAppDelegateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DF5C6CCA1917A4D100BB3EA4 /* AppDelegateServices */,
 				DF5C6CA11917828B00BB3EA4 /* SOXDAppDelegate.h */,
 				DF5C6CA21917828B00BB3EA4 /* SOXDAppDelegate.m */,
-				DF5C6CA41917828B00BB3EA4 /* Main_iPhone.storyboard */,
-				DF5C6CA71917828B00BB3EA4 /* Main_iPad.storyboard */,
 				DF5C6CAA1917828B00BB3EA4 /* SOXDViewController.h */,
 				DF5C6CAB1917828B00BB3EA4 /* SOXDViewController.m */,
 				DF5C6CAD1917828B00BB3EA4 /* Images.xcassets */,
@@ -165,6 +165,15 @@
 				DF5C6CBD1917828B00BB3EA4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF5C6CCA1917A4D100BB3EA4 /* AppDelegateServices */ = {
+			isa = PBXGroup;
+			children = (
+				DF5C6CCB1917A4EB00BB3EA4 /* SOXDPushNotificationService.h */,
+				DF5C6CCC1917A4EB00BB3EA4 /* SOXDPushNotificationService.m */,
+			);
+			name = AppDelegateServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5C6CA91917828B00BB3EA4 /* Main_iPad.storyboard in Resources */,
 				DF5C6CAE1917828B00BB3EA4 /* Images.xcassets in Resources */,
-				DF5C6CA61917828B00BB3EA4 /* Main_iPhone.storyboard in Resources */,
 				DF5C6C9D1917828B00BB3EA4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +342,7 @@
 			files = (
 				DF5C6CA31917828B00BB3EA4 /* SOXDAppDelegate.m in Sources */,
 				DF5C6CAC1917828B00BB3EA4 /* SOXDViewController.m in Sources */,
+				DF5C6CCD1917A4EB00BB3EA4 /* SOXDPushNotificationService.m in Sources */,
 				DF5C6C9F1917828B00BB3EA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,22 +372,6 @@
 				DF5C6C9C1917828B00BB3EA4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DF5C6CA41917828B00BB3EA4 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF5C6CA51917828B00BB3EA4 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DF5C6CA71917828B00BB3EA4 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF5C6CA81917828B00BB3EA4 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		DF5C6CBD1917828B00BB3EA4 /* InfoPlist.strings */ = {
@@ -474,6 +466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOXAppDelegateDemo/SOXAppDelegateDemo-Prefix.pch";
 				INFOPLIST_FILE = "SOXAppDelegateDemo/SOXAppDelegateDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -488,6 +481,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SOXAppDelegateDemo/SOXAppDelegateDemo-Prefix.pch";
 				INFOPLIST_FILE = "SOXAppDelegateDemo/SOXAppDelegateDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

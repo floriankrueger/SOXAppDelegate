@@ -10,12 +10,14 @@ Pod::Spec.new do |s|
   s.summary          = "Service Oriented AppDelegate"
   s.description      = <<-DESC
                        An implementation of the Service Oriented AppDelegate by 
-                       @clooth (http://sizeof.io/2014/02/08/service-oriented-appdelegate/)
+                       [@clooth](https://twitter.com/xcuze)'s (http://sizeof.io/2014/02/08/service-oriented-appdelegate/)
                        DESC
   s.homepage         = "https://github.com/floriankrueger/SOXAppDelegate"
   s.license          = 'MIT'
   s.author           = { "Florian Krüger" => "florian.krueger@projectserver.org" }
-  s.source           = { :git => "https://github.com/floriankrueger/SOXAppDelegate.git", :tag => s.version.to_s }
+  s.source           = {  :git => "https://github.com/floriankrueger/SOXAppDelegate.git",
+                          :tag => s.version.to_s 
+                       }
   s.social_media_url = 'https://twitter.com/xcuze'
 
   s.platform     = :ios, '5.0'
@@ -25,4 +27,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes'
 
   s.public_header_files = 'Classes/**/*.h'
+  s.frameworks = 'UIKit'
 end

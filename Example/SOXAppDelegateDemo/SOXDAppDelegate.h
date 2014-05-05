@@ -6,10 +6,8 @@
 //  Copyright (c) 2014 projectserver.org. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SOXAppDelegate.h"
 
-@interface SOXDAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SOXDAppDelegate : SOXAppDelegate
 
 @end
