@@ -6,10 +6,8 @@
 //  Copyright (c) 2014 projectserver.org. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SOXService.h"
 
-@interface SOXDPushNotificationService : NSObject
-
-+ (instancetype)sharedInstance;
+@interface SOXDPushNotificationService : SOXService
 
 @end
