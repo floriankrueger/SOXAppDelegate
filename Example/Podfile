@@ -1,9 +1,7 @@
-platform :ios
+platform :ios, '6.0'
 
-pod "SOXAppDelegate", :path => "../"
+pod 'SOXAppDelegate', :path => '../'
 
-target "Demo" do
-end
-
-target "DemoTests" do
+target :SOXAppDelegateDemoTests do
+	pod 'SOXAppDelegate', :path => '../'
 end
