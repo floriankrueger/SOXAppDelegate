@@ -71,7 +71,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Florian Krüger, florian.krueger@gutefrage.net
+Florian Krüger, florian.krueger@projectserver.org
 
 ## License
 
