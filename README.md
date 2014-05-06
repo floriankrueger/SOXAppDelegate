@@ -56,7 +56,7 @@ Implement all UIAppDelegate methods necessary for your service in the service cl
 
 ### Step 5
 
-Don't forget to call the `super` within all `UIApplicationDelegate` methods.
+Don't forget to call the `super` within all `UIApplicationDelegate` methods inside your delegate. The baseclass will then make sure that all services which implement said method get notified.
 
 ## Requirements
 
