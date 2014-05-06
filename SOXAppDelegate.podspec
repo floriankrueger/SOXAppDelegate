@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "SOXAppDelegate"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "Service Oriented AppDelegate"
   s.description      = <<-DESC
                        An implementation of the Service Oriented AppDelegate by 
