@@ -1,16 +1,10 @@
-#
-# Be sure to run `pod lib lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
   s.name             = "SOXAppDelegate"
   s.version          = "1.0.0"
   s.summary          = "Service Oriented AppDelegate"
   s.description      = <<-DESC
                        An implementation of the Service Oriented AppDelegate by 
-                       [@clooth](https://twitter.com/xcuze)'s (http://sizeof.io/2014/02/08/service-oriented-appdelegate/)
+                       [@clooth](https://twitter.com/clooth)'s (http://sizeof.io/2014/02/08/service-oriented-appdelegate/)
                        DESC
   s.homepage         = "https://github.com/floriankrueger/SOXAppDelegate"
   s.license          = 'MIT'
