@@ -13,12 +13,32 @@
 // Singleton initializer
 + (instancetype)sharedInstance
 {
-    static id _sharedInstance = nil;
-    static dispatch_once_t _onceToken;
-    dispatch_once(&_onceToken, ^{
-        _sharedInstance = [[[self class] alloc] init];
+    NSMutableDictionary *sharedInstances = [self sharedInstances];
+    
+    Class serviceClass = [self class];
+    NSString *serviceClassName = NSStringFromClass(serviceClass);
+    
+    SOXService *sharedInstance = [sharedInstances objectForKey:serviceClassName];
+    
+    @synchronized(serviceClass)
+    {
+        if (nil == sharedInstance) {
+            sharedInstance = [[serviceClass alloc] init];
+            sharedInstances[serviceClassName] = sharedInstance;
+        }
+    }
+    
+    return sharedInstance;
+}
+
++ (NSMutableDictionary *)sharedInstances
+{
+    static NSMutableDictionary *_sharedInstances = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedInstances = [NSMutableDictionary dictionary];
     });
-    return _sharedInstance;
+    return _sharedInstances;
 }
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SOXDFooService.h"
+#import "SOXDBarService.h"
 
 @interface SOXAppDelegateDemoTests : XCTestCase
 
@@ -26,9 +28,21 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testService
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    SOXDFooService *fooService = [SOXDFooService sharedInstance];
+    XCTAssertTrue([fooService isKindOfClass:[SOXDFooService class]],
+                  @"expected instance of 'SOXDFooService', got instance of '%@'",
+                  NSStringFromClass([fooService class]));
+    
+    SOXDBarService *barService = [SOXDBarService sharedInstance];
+    XCTAssertTrue([barService isKindOfClass:[SOXDBarService class]],
+                  @"expected instance of 'SOXDBarService', got instance of '%@'",
+                  NSStringFromClass([fooService class]));
+    
+    SOXService *fooService2 = [SOXDFooService sharedInstance];
+    XCTAssertEqual(fooService, fooService2,
+                   @"");
 }
 
 @end

@@ -22,6 +22,8 @@
 		DF5C6CBF1917828B00BB3EA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5C6CBD1917828B00BB3EA4 /* InfoPlist.strings */; };
 		DF5C6CC11917828B00BB3EA4 /* SOXAppDelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CC01917828B00BB3EA4 /* SOXAppDelegateDemoTests.m */; };
 		DF5C6CCD1917A4EB00BB3EA4 /* SOXDPushNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C6CCC1917A4EB00BB3EA4 /* SOXDPushNotificationService.m */; };
+		DF656FEC191CEE4F00B50F67 /* SOXDFooService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF656FEB191CEE4F00B50F67 /* SOXDFooService.m */; };
+		DF656FEF191CEE5900B50F67 /* SOXDBarService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF656FEE191CEE5900B50F67 /* SOXDBarService.m */; };
 		DF6ED0411917A68E00015F57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6ED0401917A68E00015F57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,10 @@
 		DF5C6CC01917828B00BB3EA4 /* SOXAppDelegateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXAppDelegateDemoTests.m; sourceTree = "<group>"; };
 		DF5C6CCB1917A4EB00BB3EA4 /* SOXDPushNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOXDPushNotificationService.h; sourceTree = "<group>"; };
 		DF5C6CCC1917A4EB00BB3EA4 /* SOXDPushNotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOXDPushNotificationService.m; sourceTree = "<group>"; };
+		DF656FEA191CEE4F00B50F67 /* SOXDFooService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOXDFooService.h; sourceTree = "<group>"; };
+		DF656FEB191CEE4F00B50F67 /* SOXDFooService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOXDFooService.m; sourceTree = "<group>"; };
+		DF656FED191CEE5900B50F67 /* SOXDBarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOXDBarService.h; sourceTree = "<group>"; };
+		DF656FEE191CEE5900B50F67 /* SOXDBarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOXDBarService.m; sourceTree = "<group>"; };
 		DF6ED0401917A68E00015F57 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		F503BAE5990245C2BCD4DA12 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FC6D1A85294F42E4B14250DC /* Pods-SOXAppDelegateDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOXAppDelegateDemoTests.xcconfig"; path = "Pods/Pods-SOXAppDelegateDemoTests.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +160,10 @@
 			children = (
 				DF5C6CC01917828B00BB3EA4 /* SOXAppDelegateDemoTests.m */,
 				DF5C6CBB1917828B00BB3EA4 /* Supporting Files */,
+				DF656FEA191CEE4F00B50F67 /* SOXDFooService.h */,
+				DF656FEB191CEE4F00B50F67 /* SOXDFooService.m */,
+				DF656FED191CEE5900B50F67 /* SOXDBarService.h */,
+				DF656FEE191CEE5900B50F67 /* SOXDBarService.m */,
 			);
 			path = SOXAppDelegateDemoTests;
 			sourceTree = "<group>";
@@ -351,7 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF656FEC191CEE4F00B50F67 /* SOXDFooService.m in Sources */,
 				DF5C6CC11917828B00BB3EA4 /* SOXAppDelegateDemoTests.m in Sources */,
+				DF656FEF191CEE5900B50F67 /* SOXDBarService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
