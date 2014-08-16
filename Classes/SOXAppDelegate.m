@@ -165,4 +165,14 @@
     }
 }
 
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    id<UIApplicationDelegate> service;
+    for (service in self.services) {
+        if ([service respondsToSelector:@selector(application:didReceiveRemoteNotification:fetchCompletionHandler:)]){
+              [service application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
+        }
+    }
+}
+
 @end
