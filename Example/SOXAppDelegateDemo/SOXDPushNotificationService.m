@@ -47,4 +47,10 @@
     NSLog(@"PushNotificationService Received: %@", userInfo);
 }
 
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    // Handler for the push notifications that we receive in our application
+    NSLog(@"PushNotificationService Received (in Background): %@", userInfo);
+}
+
 @end

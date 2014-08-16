@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SOXService : NSObject
+@interface SOXService : NSObject <UIApplicationDelegate>
 
 + (instancetype)sharedInstance;
 
