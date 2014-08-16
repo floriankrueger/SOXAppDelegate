@@ -1,7 +1,7 @@
 platform :ios, '6.0'
 
-pod 'SOXAppDelegate',   :path => '../'
+pod 'SOXAppDelegate',   :path => '..'
 
 target :SOXAppDelegateDemoTests do
-	pod 'SOXAppDelegate',   :path => '../'
+	pod 'SOXAppDelegate',   :path => '..'
 end

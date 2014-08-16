@@ -1,14 +1,14 @@
 PODS:
-  - SOXAppDelegate (0.1.0)
+  - SOXAppDelegate (1.0.1)
 
 DEPENDENCIES:
-  - SOXAppDelegate (from `../`)
+  - SOXAppDelegate (from `..`)
 
 EXTERNAL SOURCES:
   SOXAppDelegate:
-    :path: ../
+    :path: ..
 
 SPEC CHECKSUMS:
-  SOXAppDelegate: 58717bdd9ec342858e7b9345a0d40b7161f16e1a
+  SOXAppDelegate: 9d380708eecff3d89633f1dd1bbf476c1493ca6e
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.1
