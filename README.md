@@ -11,7 +11,7 @@ This pod should simplify the setup of new iOS projects and keep me away from cop
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
-See [this blog post](http://sizeof.io/2014/02/08/service-oriented-appdelegate/) for a detailed writeup about this topic.
+See [this blog post](http://sizeof.io/service-oriented-appdelegate/) for a detailed writeup about this topic.
 
 ### Step 1
 
