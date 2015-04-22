@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   SOXAppDelegate:
-    :path: ..
+    :path: ".."
 
 SPEC CHECKSUMS:
   SOXAppDelegate: 9d380708eecff3d89633f1dd1bbf476c1493ca6e
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.36.3

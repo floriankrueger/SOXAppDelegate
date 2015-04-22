@@ -113,6 +113,8 @@
 
 #pragma mark - Downloading Data in the Background
 
+#ifdef SOXAPPDELEGATE_BACKGROUNDMODE_FETCH
+
 - (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
     id<UIApplicationDelegate> service;
@@ -122,6 +124,8 @@
         }
     }
 }
+
+#endif
 
 - (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler
 {
@@ -155,6 +159,8 @@
     }
 }
 
+#ifdef SOXAPPDELEGATE_BACKGROUNDMODE_REMOTENOTIFICATION
+
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     id<UIApplicationDelegate> service;
@@ -164,6 +170,8 @@
         }
     }
 }
+
+#endif
 
 - (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler
 {
